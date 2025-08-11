@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chupi Jewellery | Engagement Rings, Wedding Rings & Fine Jewellery</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="" />
+    <!-- favicon -->
+
+     <!-- google fonts -->
+
+      <!-- Varela Round -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+      <!-- Varela Round -->
+      <!-- Playfair Display -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+      <!-- Playfair Display -->
+      <!-- Allura -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+      <!-- Allura -->
+
+     <!-- google fonts -->
+     <!-- links -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <script src="https://cdn.tailwindcss.com"></script>
+     <!-- links -->
+      <!-- font awsome -->
+      <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+      <!-- font awsome -->
+ 
+      <style>
+        
+        
+        .font-round{
+             font-family: "Varela Round", sans-serif;
+        }
+
+        .font-play{
+            font-family: "Playfair Display", serif;
+        }
+        
+        .font-all{
+            font-family: "Allura", cursive;
+        }
+        
+      </style>
+
+</head>
+<body>
+  
+<!-- header start -->
+<header>
+    
+    <!-- navbar -->
+      
+<nav class="bg-white py-4">
+  <div class="container mx-auto relative flex justify-between items-center px-4 lg:px-8">
+
+    <!-- Left Section -->
+    <div class="flex items-center space-x-6 font-thin text-xs text-gray-600">
+      <a href="#" class="flex items-center group cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200">
+        <i class="fa-solid fa-location-dot text-gray-600 group-hover:text-[#CFAA90] transition-colors duration-200 text-lg"></i>
+        <span class="ml-1 group-hover:text-[#CFAA90]">Visit Our Store</span>
+      </a>
+      <a href="#" class="cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 group">
+        <span class="group-hover:text-[#CFAA90]">@Contact</span>
+      </a>
+    </div>
+
+    <!-- Center Logo -->
+    <div class="absolute left-1/2 transform -translate-x-1/2">
+      <img
+        src="https://www.chupi.com/cdn/shop/t/47/assets/chupi_wordmark_logo-dark.svg?v=69432121459516743131681896704"
+        alt="Logo"
+        class="h-8 w-auto"
+      />
+    </div>
+
+    <!-- Right Section -->
+    <div class="flex items-center space-x-4 md:space-x-6">
+      <div class="relative items-center hidden md:flex">
+        <input
+          type="text"
+          placeholder="Search"
+          class="bg-gray-100 placeholder-gray-500 border-b border-gray-400 focus:border-[#CFAA90] outline-none w-32 md:w-48 py-1 px-2 text-xs transition-colors duration-200"
+        />
+        <i
+          class="fa-solid fa-magnifying-glass absolute right-2 text-gray-400 cursor-pointer"
+        ></i>
+      </div>
+
+      <a
+        href="#"
+        class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+        ><i class="fa-regular fa-user"></i
+      ></a>
+      <a
+        href="#"
+        class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+        ><i class="fa-regular fa-heart"></i
+      ></a>
+      <a
+        href="#"
+        class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+        ><i class="fa-solid fa-bag-shopping"></i
+      ></a>
+
+      <!-- Currency Dropdown -->
+      <div class="relative cursor-pointer text-sm" id="currency-dropdown">
+        <div
+          class="flex items-center space-x-2 font-thin text-gray-600 border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 text-xs"
+        >
+          <span id="selected-currency">BDT</span>
+        </div>
+
+        <div
+          class="absolute hidden bg-white shadow-lg rounded-md top-full mt-1 w-28 right-0 z-10 p-2"
+          id="currency-menu"
+        >
+          <a href="#" class="currency-item" data-currency="CAD">
+            <span>CAD</span>
+            <img
+              src="https://flagcdn.com/ca.svg"
+              alt="CA"
+              class="h-4 w-6 flag-zoom"
+            />
+          </a>
+          <a href="#" class="currency-item" data-currency="AUD">
+            <span>AUD</span>
+            <img
+              src="https://flagcdn.com/au.svg"
+              alt="AU"
+              class="h-4 w-6 flag-zoom"
+            />
+          </a>
+          <a href="#" class="currency-item" data-currency="USD">
+            <span>USD</span>
+            <img
+              src="https://flagcdn.com/us.svg"
+              alt="US"
+              class="h-4 w-6 flag-zoom"
+            />
+          </a>
+          <a href="#" class="currency-item" data-currency="EUR">
+            <span>EUR</span>
+            <img
+              src="https://flagcdn.com/eu.svg"
+              alt="EU"
+              class="h-4 w-6 flag-zoom"
+            />
+          </a>
+          <a href="#" class="currency-item" data-currency="GBP">
+            <span>GBP</span>
+            <img
+              src="https://flagcdn.com/gb.svg"
+              alt="GB"
+              class="h-4 w-6 flag-zoom"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mega Menu -->
+  <div class="hidden lg:flex justify-center items-center py-2 mt-6">
+    <ul class="flex space-x-8 text-base font-semibold uppercase tracking-wide">
+      <li class="relative" id="engagement-menu-parent">
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Engagement</a
+        >
+        <div
+          class="absolute hidden -left-[200px] mt-4 w-[1200px] bg-white shadow-lg rounded-md p-8 z-50 mega-menu"
+          id="engagement-menu"
+        >
+          <div class="flex">
+            <div class="w-1/4 pr-8 border-r border-gray-200">
+              <h3 class="text-xs font-bold text-gray-900 mb-4">
+                START YOUR ENGAGEMENT
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Engagement Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Promise Rings</a
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xs font-bold text-gray-900 mt-6 mb-4">
+                SHOP BY SHAPE
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Round</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Oval</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Marquise</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Emerald Cut</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Three Stone</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4 px-8 border-r border-gray-200">
+              <h3 class="text-xs font-bold text-gray-900 mb-4">SHOP BY STONE</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Lab Grown Diamond Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Grey Diamond Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Diamond Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Gemstone Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Sapphire Rings</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Emerald Rings</a
+                  >
+                </li>
+              </ul>
+              <h3 class="text-xs font-bold text-gray-900 mt-6 mb-4">
+                LIMITED EDITIONS
+              </h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Claddagh Rings by Chupi</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4 px-8 border-r border-gray-200">
+              <h3 class="text-xs font-bold text-gray-900 mb-4">WHY CHUPI</h3>
+              <ul class="space-y-2 text-sm text-gray-600">
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Sustainability</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Made in Ireland</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Beautiful Packaging</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Flexible Payment Plans</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#CFAA90] transition-colors duration-200"
+                    >Customer Reviews</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="w-1/4 pl-8">
+              <div class="grid grid-cols-2 gap-4">
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1090/1794/files/appointments-lp-occasion-engagement_300x.jpg?v=1718182725"
+                    alt="Book an appointment"
+                  />
+                  <span class="block text-xs text-gray-700 mt-2"
+                    >Book an appointment</span
+                  >
+                </a>
+                <a href="#">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/1090/1794/files/Nav_Engagement_300_by_300_300x.jpg?v=1709129859"
+                    alt="Engagement ring guide"
+                  />
+                  <span class="block text-xs text-gray-700 mt-2"
+                    >Our Engagement Ring Guide</span
+                  >
+                </a>
+                <a href="#">
+                  <img
+                    src="https://www.chupi.com/cdn/shop/files/home-category-wedding_may-2024_300x.jpg?v=1716475061"
+                    alt="Find your ring size"
+                  />
+                  <span class="block text-xs text-gray-700 mt-2"
+                    >Find your ring size</span
+                  >
+                </a>
+                <a href="#">
+                  <img
+                    src="https://www.chupi.com/cdn/shop/articles/chupiblog1_300x.jpg?v=1675252812"
+                    alt="What our customers say"
+                  />
+                  <span class="block text-xs text-gray-700 mt-2"
+                    >What our customers say</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Wedding</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Crown & Eternity Rings</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Jewellery</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Gifts</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >About</a
+        >
+      </li>
+      <li>
+        <a
+          href="#"
+          class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+          >Book Appointment</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+  /* Currency dropdown styles */
+  .currency-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 4px;
+    color: #4B5563;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  .currency-item:hover {
+    background-color: #F3F4F6;
+  }
+  .flag-zoom {
+    transition: transform 0.2s;
+  }
+  .currency-item:hover .flag-zoom {
+    transform: scale(1.2);
+  }
+
+  /* Mega menu image fix */
+  .mega-menu img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.25rem; /* rounded-md */
+    display: block;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Currency dropdown
+    const dropdown = document.getElementById('currency-dropdown');
+    const menu = document.getElementById('currency-menu');
+    const selectedCurrencySpan = document.getElementById('selected-currency');
+
+    dropdown.addEventListener('click', (e) => {
+      e.stopPropagation();
+      menu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.currency-item').forEach(item => {
+      item.addEventListener('click', (event) => {
+        event.preventDefault();
+        selectedCurrencySpan.textContent = item.dataset.currency;
+        menu.classList.add('hidden');
+      });
+    });
+
+    document.addEventListener('click', () => {
+      menu.classList.add('hidden');
+    });
+
+    // Mega menu show/hide fix (mouseenter/mouseleave)
+    const engagementParent = document.getElementById('engagement-menu-parent');
+    const engagementMenu = document.getElementById('engagement-menu');
+
+    let timer;
+
+    engagementParent.addEventListener('mouseenter', () => {
+      clearTimeout(timer);
+      engagementMenu.classList.remove('hidden');
+    });
+
+    engagementParent.addEventListener('mouseleave', () => {
+      timer = setTimeout(() => {
+        engagementMenu.classList.add('hidden');
+      }, 150); // slight delay so fast cursor move doesn't hide instantly
+    });
+
+    engagementMenu.addEventListener('mouseenter', () => {
+      clearTimeout(timer);
+      engagementMenu.classList.remove('hidden');
+    });
+
+    engagementMenu.addEventListener('mouseleave', () => {
+      timer = setTimeout(() => {
+        engagementMenu.classList.add('hidden');
+      }, 150);
+    });
+  });
+</script>
+    <!-- navbar -->
+
+
+
+</header>
+<!-- header end -->
+    
+</body>
+</html>

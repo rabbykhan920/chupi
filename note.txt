@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chupi Jewellery | Engagement Rings, Wedding Rings & Fine Jewellery</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="" />
+    <!-- favicon -->
+
+     <!-- google fonts -->
+
+      <!-- Varela Round -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+      <!-- Varela Round -->
+      <!-- Playfair Display -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+      <!-- Playfair Display -->
+      <!-- Allura -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+      <!-- Allura -->
+
+     <!-- google fonts -->
+     <!-- links -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <script src="https://cdn.tailwindcss.com"></script>
+     <!-- links -->
+      <!-- font awsome -->
+      <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+      <!-- font awsome -->
+ 
+      <style>
+        
+        
+        .font-round{
+             font-family: "Varela Round", sans-serif;
+        }
+
+        .font-play{
+            font-family: "Playfair Display", serif;
+        }
+        
+        .font-all{
+            font-family: "Allura", cursive;
+        }
+        
+      </style>
+
+</head>
+
+<body>
+  
+<!-- header start -->
+<header>
+    
+    <!-- navbar -->
+ <nav class="bg-white py-4 ">
+  <div class="container mx-auto relative flex justify-between items-center px-4 lg:px-8">
+
+    <div class="flex items-center space-x-6 font-thin text-xs text-gray-600">
+      <a href="#" class="flex items-center group cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200">
+        <i class="fa-solid fa-location-dot text-gray-600 group-hover:text-[#CFAA90] transition-colors duration-200 text-lg"></i>
+        <span class="ml-1 group-hover:text-[#CFAA90]">Visit Our Store</span>
+      </a>
+      <a href="#" class="cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 group">
+        <span class="group-hover:text-[#CFAA90]">@Contact</span>
+      </a>
+    </div>
+
+    <div class="absolute left-1/2 transform -translate-x-1/2">
+      <img src="https://www.chupi.com/cdn/shop/t/47/assets/chupi_wordmark_logo-dark.svg?v=69432121459516743131681896704" alt="Logo" class="h-8 w-auto">
+    </div>
+
+    <div class="flex items-center space-x-4 md:space-x-6">
+      <div class="relative items-center hidden md:flex">
+        <input type="text" placeholder="Search" class="bg-gray-100 placeholder-gray-500 border-b border-gray-400 focus:border-[#CFAA90] outline-none w-32 md:w-48 py-1 px-2 text-xs transition-colors duration-200">
+        <i class="fa-solid fa-magnifying-glass absolute right-2 text-gray-400 cursor-pointer"></i>
+      </div>
+
+      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-regular fa-user"></i></a>
+      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-regular fa-heart"></i></a>
+      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-solid fa-bag-shopping"></i></a>
+
+      <div class="relative group cursor-pointer text-sm">
+        <div class="flex items-center space-x-2 font-thin text-gray-600 border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 text-xs">
+          <span id="selected-currency">BDT</span>
+        </div>
+
+        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md top-full mt-0 w-28 right-0 z-10 p-2">
+          <a href="#" class="currency-item" data-currency="CAD">
+            <span>CAD</span>
+            <img src="https://flagcdn.com/ca.svg" alt="CA" class="h-4 w-6 flag-zoom">
+          </a>
+          <a href="#" class="currency-item" data-currency="AUD">
+            <span>AUD</span>
+            <img src="https://flagcdn.com/au.svg" alt="AU" class="h-4 w-6 flag-zoom">
+          </a>
+          <a href="#" class="currency-item" data-currency="USD">
+            <span>USD</span>
+            <img src="https://flagcdn.com/us.svg" alt="US" class="h-4 w-6 flag-zoom">
+          </a>
+          <a href="#" class="currency-item" data-currency="EUR">
+            <span>EUR</span>
+            <img src="https://flagcdn.com/eu.svg" alt="EU" class="h-4 w-6 flag-zoom">
+          </a>
+          <a href="#" class="currency-item" data-currency="GBP">
+            <span>GBP</span>
+            <img src="https://flagcdn.com/gb.svg" alt="GB" class="h-4 w-6 flag-zoom">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hidden lg:flex justify-center items-center py-2 mt-6">
+    <ul class="flex space-x-8 text-base font-semibold uppercase tracking-wide">
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Engagement</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Wedding</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Crown & Eternity Rings</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Jewellery</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Gifts</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">About</a></li>
+      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Book Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+/* ... (Currency dropdown styles remain unchanged) ... */
+.currency-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    border-radius: 4px;
+    color: #4B5563;
+    transition: background-color 0.2s;
+}
+
+.currency-item:hover {
+    background-color: #F3F4F6;
+}
+
+.flag-zoom {
+    transition: transform 0.2s;
+}
+
+.currency-item:hover .flag-zoom {
+    transform: scale(1.2);
+}
+
+/* "Glass-like" hover effect for the second layer links */
+.hover-shine {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.hover-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: skewX(-45deg);
+  pointer-events: none;
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.hover-shine:hover::before {
+  left: 125%;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const currencyItems = document.querySelectorAll('.currency-item');
+  const selectedCurrencySpan = document.getElementById('selected-currency');
+
+  currencyItems.forEach(item => {
+    item.addEventListener('click', (event) => {
+      event.preventDefault();
+      const newCurrency = item.getAttribute('data-currency');
+      selectedCurrencySpan.textContent = newCurrency;
+    });
+  });
+});
+</script>
+    <!-- navbar -->
+
+
+
+</header>
+<!-- header end -->
+    
+</body>
+</html>
+
+
+
