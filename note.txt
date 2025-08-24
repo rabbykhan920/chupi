@@ -56,151 +56,528 @@
       </style>
 
 </head>
-
 <body>
   
 <!-- header start -->
 <header>
     
     <!-- navbar -->
- <nav class="bg-white py-4 ">
-  <div class="container mx-auto relative flex justify-between items-center px-4 lg:px-8">
+      
+<nav class="bg-white py-4">
+    <div class="container mx-auto relative flex justify-between items-center px-4 lg:px-8">
 
-    <div class="flex items-center space-x-6 font-thin text-xs text-gray-600">
-      <a href="#" class="flex items-center group cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200">
-        <i class="fa-solid fa-location-dot text-gray-600 group-hover:text-[#CFAA90] transition-colors duration-200 text-lg"></i>
-        <span class="ml-1 group-hover:text-[#CFAA90]">Visit Our Store</span>
-      </a>
-      <a href="#" class="cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 group">
-        <span class="group-hover:text-[#CFAA90]">@Contact</span>
-      </a>
-    </div>
-
-    <div class="absolute left-1/2 transform -translate-x-1/2">
-      <img src="https://www.chupi.com/cdn/shop/t/47/assets/chupi_wordmark_logo-dark.svg?v=69432121459516743131681896704" alt="Logo" class="h-8 w-auto">
-    </div>
-
-    <div class="flex items-center space-x-4 md:space-x-6">
-      <div class="relative items-center hidden md:flex">
-        <input type="text" placeholder="Search" class="bg-gray-100 placeholder-gray-500 border-b border-gray-400 focus:border-[#CFAA90] outline-none w-32 md:w-48 py-1 px-2 text-xs transition-colors duration-200">
-        <i class="fa-solid fa-magnifying-glass absolute right-2 text-gray-400 cursor-pointer"></i>
-      </div>
-
-      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-regular fa-user"></i></a>
-      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-regular fa-heart"></i></a>
-      <a href="#" class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"><i class="fa-solid fa-bag-shopping"></i></a>
-
-      <div class="relative group cursor-pointer text-sm">
-        <div class="flex items-center space-x-2 font-thin text-gray-600 border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 text-xs">
-          <span id="selected-currency">BDT</span>
+        <div class="flex items-center space-x-6 font-thin text-xs text-gray-600">
+            <a href="#" class="flex items-center group cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200">
+                <i class="fa-solid fa-location-dot text-gray-600 group-hover:text-[#CFAA90] transition-colors duration-200 text-lg"></i>
+                <span class="ml-1 group-hover:text-[#CFAA90]">Visit Our Store</span>
+            </a>
+            <a href="#" class="cursor-pointer border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 group">
+                <span class="group-hover:text-[#CFAA90]">@Contact</span>
+            </a>
         </div>
 
-        <div class="absolute hidden group-hover:block bg-white shadow-lg rounded-md top-full mt-0 w-28 right-0 z-10 p-2">
-          <a href="#" class="currency-item" data-currency="CAD">
-            <span>CAD</span>
-            <img src="https://flagcdn.com/ca.svg" alt="CA" class="h-4 w-6 flag-zoom">
-          </a>
-          <a href="#" class="currency-item" data-currency="AUD">
-            <span>AUD</span>
-            <img src="https://flagcdn.com/au.svg" alt="AU" class="h-4 w-6 flag-zoom">
-          </a>
-          <a href="#" class="currency-item" data-currency="USD">
-            <span>USD</span>
-            <img src="https://flagcdn.com/us.svg" alt="US" class="h-4 w-6 flag-zoom">
-          </a>
-          <a href="#" class="currency-item" data-currency="EUR">
-            <span>EUR</span>
-            <img src="https://flagcdn.com/eu.svg" alt="EU" class="h-4 w-6 flag-zoom">
-          </a>
-          <a href="#" class="currency-item" data-currency="GBP">
-            <span>GBP</span>
-            <img src="https://flagcdn.com/gb.svg" alt="GB" class="h-4 w-6 flag-zoom">
-          </a>
+        <div class="absolute left-1/2 transform -translate-x-1/2">
+            <img
+                src="https://www.chupi.com/cdn/shop/t/47/assets/chupi_wordmark_logo-dark.svg?v=69432121459516743131681896704"
+                alt="Logo"
+                class="h-8 w-auto"
+            />
         </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="hidden lg:flex justify-center items-center py-2 mt-6">
-    <ul class="flex space-x-8 text-base font-semibold uppercase tracking-wide">
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Engagement</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Wedding</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Crown & Eternity Rings</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Jewellery</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Gifts</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">About</a></li>
-      <li><a href="#" class="text-gray-700 relative hover-shine hover:text-[#CFAA90] transition-colors duration-200">Book Appointment</a></li>
-    </ul>
-  </div>
+        <div class="flex items-center space-x-4 md:space-x-6">
+            <div class="relative items-center hidden md:flex">
+                <input
+                    type="text"
+                    placeholder="Search"
+                    class="bg-gray-100 placeholder-gray-500 border-b border-gray-400 focus:border-[#CFAA90] outline-none w-32 md:w-48 py-1 px-2 text-xs transition-colors duration-200"
+                />
+                <i
+                    class="fa-solid fa-magnifying-glass absolute right-2 text-gray-400 cursor-pointer"
+                ></i>
+            </div>
+
+            <a
+                href="#"
+                class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+                ><i class="fa-regular fa-user"></i
+            ></a>
+            <a
+                href="#"
+                class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+                ><i class="fa-regular fa-heart"></i
+            ></a>
+            <a
+                href="#"
+                class="text-gray-600 hover:scale-125 transition-transform duration-200 cursor-pointer text-base md:text-lg"
+                ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+
+            <div class="relative cursor-pointer text-sm" id="currency-dropdown">
+                <div
+                    class="flex items-center space-x-2 font-thin text-gray-600 border-b border-transparent hover:border-[#CFAA90] transition-colors duration-200 text-xs"
+                >
+                    <span id="selected-currency">BDT</span>
+                </div>
+
+                <div
+                    class="absolute hidden bg-white shadow-lg rounded-md top-full mt-1 w-28 right-0 z-10 p-2"
+                    id="currency-menu"
+                >
+                    <a href="#" class="currency-item" data-currency="CAD">
+                        <span>CAD</span>
+                        <img
+                            src="https://flagcdn.com/ca.svg"
+                            alt="CA"
+                            class="h-4 w-6 flag-zoom"
+                        />
+                    </a>
+                    <a href="#" class="currency-item" data-currency="AUD">
+                        <span>AUD</span>
+                        <img
+                            src="https://flagcdn.com/au.svg"
+                            alt="AU"
+                            class="h-4 w-6 flag-zoom"
+                        />
+                    </a>
+                    <a href="#" class="currency-item" data-currency="USD">
+                        <span>USD</span>
+                        <img
+                            src="https://flagcdn.com/us.svg"
+                            alt="US"
+                            class="h-4 w-6 flag-zoom"
+                        />
+                    </a>
+                    <a href="#" class="currency-item" data-currency="EUR">
+                        <span>EUR</span>
+                        <img
+                            src="https://flagcdn.com/eu.svg"
+                            alt="EU"
+                            class="h-4 w-6 flag-zoom"
+                        />
+                    </a>
+                    <a href="#" class="currency-item" data-currency="GBP">
+                        <span>GBP</span>
+                        <img
+                            src="https://flagcdn.com/gb.svg"
+                            alt="GB"
+                            class="h-4 w-6 flag-zoom"
+                        />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hidden lg:flex justify-center items-center py-2 mt-6">
+        <ul class="flex space-x-8 text-base font-semibold uppercase tracking-wide">
+            <li class="relative group">
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Engagement</a
+                >
+                <div
+                    class="absolute hidden group-hover:block -left-[200px] mt-4 w-[1200px] bg-white shadow-lg rounded-md p-8 z-50 mega-menu"
+                >
+                    <div class="flex">
+                        <div class="w-1/4 pr-8 border-r border-gray-200">
+                            <h3 class="text-xs font-bold text-gray-900 mb-4">
+                                START YOUR ENGAGEMENT
+                            </h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Engagement Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Promise Rings</a
+                                    >
+                                </li>
+                            </ul>
+                            <h3 class="text-xs font-bold text-gray-900 mt-6 mb-4">
+                                SHOP BY SHAPE
+                            </h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Round</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Oval</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Marquise</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Emerald Cut</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Three Stone</a
+                                    >
+                                </li>
+                            </ul>
+                            <h3 class="text-xs font-bold text-gray-900 mt-6 mb-4">
+                                LIMITED EDITIONS
+                            </h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Claddagh Rings by Chupi</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-1/4 px-8 border-r border-gray-200">
+                            <h3 class="text-xs font-bold text-gray-900 mb-4">SHOP BY STONE</h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Lab Grown Diamond Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Grey Diamond Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Diamond Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Gemstone Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Sapphire Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Emerald Rings</a
+                                    >
+                                </li>
+                            </ul>
+                            <h3 class="text-xs font-bold text-gray-900 mt-6 mb-4">
+                                LIMITED EDITIONS
+                            </h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Claddagh Rings by Chupi</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-1/4 px-8 border-r border-gray-200">
+                            <h3 class="text-xs font-bold text-gray-900 mb-4">WHY CHUPI</h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Sustainability</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Made in Ireland</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Beautiful Packaging</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Flexible Payment Plans</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Customer Reviews</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-1/4 pl-8">
+                            <div class="grid grid-cols-2 gap-4">
+                                <a href="#" class="block">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/1090/1794/files/appointments-lp-occasion-engagement_300x.jpg?v=1718182725"
+                                        alt="Book an appointment"
+                                        class="w-full h-24 object-cover rounded-md"
+                                    />
+                                    <span class="block text-xs text-gray-700 mt-2"
+                                    >Book an appointment</span
+                                    >
+                                </a>
+                                <a href="#" class="block">
+                                    <img
+                                        src="https://cdn.shopify.com/s/files/1/1090/1794/files/Nav_Engagement_300_by_300_300x.jpg?v=1709129859"
+                                        alt="Engagement ring guide"
+                                        class="w-full h-24 object-cover rounded-md"
+                                    />
+                                    <span class="block text-xs text-gray-700 mt-2"
+                                    >Our Engagement Ring Guide</span
+                                    >
+                                </a>
+                                <a href="#" class="block">
+                                    <img
+                                        src="https://www.chupi.com/cdn/shop/files/home-category-wedding_may-2024_300x.jpg?v=1716475061"
+                                        alt="Find your ring size"
+                                        class="w-full h-24 object-cover rounded-md"
+                                    />
+                                    <span class="block text-xs text-gray-700 mt-2"
+                                    >Find your ring size</span
+                                    >
+                                </a>
+                                <a href="#" class="block">
+                                    <img
+                                        src="https://www.chupi.com/cdn/shop/articles/chupiblog1_300x.jpg?v=1675252812"
+                                        alt="What our customers say"
+                                        class="w-full h-24 object-cover rounded-md"
+                                    />
+                                    <span class="block text-xs text-gray-700 mt-2"
+                                    >What our customers say</span
+                                    >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="relative group">
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Wedding</a
+                >
+                <div
+                    class="absolute hidden group-hover:block -left-[200px] mt-4 w-[1200px] bg-white shadow-lg rounded-md p-8 z-50 mega-menu"
+                >
+                    <div class="flex">
+                        <div class="w-1/4 pr-8 border-r border-gray-200">
+                            <h3 class="text-xs font-bold text-gray-900 mb-4">
+                                ALL WEDDING & RINGS
+                            </h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >All Wedding Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Women's Wedding Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Men's Wedding Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Crown & Eternity Rings</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="#"
+                                        class="hover:text-[#CFAA90] transition-colors duration-200"
+                                    >Bridal Jewellery</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                       <div class="w-3/4 pl-8 flex justify-between">
+    <div class="mega-img-container">
+        <img src="https://cdn.shopify.com/s/files/1/1090/1794/files/nav_wedding_b5c65e7d-abf6-4d20-8fe5-2371242617c3.jpg?v=1701422496" alt="Wedding Rings" />
+    </div>
+</div>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Crown & Eternity Rings</a
+                >
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Jewellery</a
+                >
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Gifts</a
+                >
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >About</a
+                >
+            </li>
+            <li>
+                <a
+                    href="#"
+                    class="text-gray-700 hover:text-[#CFAA90] transition-colors duration-200"
+                >Book Appointment</a
+                >
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <style>
-/* ... (Currency dropdown styles remain unchanged) ... */
-.currency-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-    padding: 8px;
-    font-weight: 300;
-    font-size: 12px;
-    border-radius: 4px;
-    color: #4B5563;
-    transition: background-color 0.2s;
-}
-
-.currency-item:hover {
-    background-color: #F3F4F6;
-}
-
-.flag-zoom {
-    transition: transform 0.2s;
-}
-
-.currency-item:hover .flag-zoom {
-    transform: scale(1.2);
-}
-
-/* "Glass-like" hover effect for the second layer links */
-.hover-shine {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  white-space: nowrap;
-}
-
-.hover-shine::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -75%;
-  width: 50%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.4);
-  transform: skewX(-45deg);
-  pointer-events: none;
-  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.hover-shine:hover::before {
-  left: 125%;
-}
+    
+    .currency-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        font-weight: 300;
+        font-size: 12px;
+        border-radius: 4px;
+        color: #4B5563;
+        transition: background-color 0.2s;
+        cursor: pointer;
+    }
+    .currency-item:hover {
+        background-color: #F3F4F6;
+    }
+    .flag-zoom {
+        transition: transform 0.2s;
+    }
+    .currency-item:hover .flag-zoom {
+        transform: scale(1.2);
+    }
+    .mega-menu-engagement img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 0.25rem;
+        display: block;
+    }
+    .mega-menu h3 {
+        color: #CFAA90;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .mega-menu a {
+        text-transform: capitalize;
+        font-size: 14px;
+        color: #4B5563;
+        transition: color 0.2s;
+    }
+    .mega-menu a:hover {
+        color: #CFAA90;
+    }
+    .mega-menu .mega-img-container img {
+        height: 100%;
+        object-fit: cover;
+    }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  const currencyItems = document.querySelectorAll('.currency-item');
-  const selectedCurrencySpan = document.getElementById('selected-currency');
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        // Currency dropdown
+        const dropdown = document.getElementById('currency-dropdown');
+        const menu = document.getElementById('currency-menu');
+        const selectedCurrencySpan = document.getElementById('selected-currency');
 
-  currencyItems.forEach(item => {
-    item.addEventListener('click', (event) => {
-      event.preventDefault();
-      const newCurrency = item.getAttribute('data-currency');
-      selectedCurrencySpan.textContent = newCurrency;
+        dropdown.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('.currency-item').forEach(item => {
+            item.addEventListener('click', (event) => {
+                event.preventDefault();
+                selectedCurrencySpan.textContent = item.dataset.currency;
+                menu.classList.add('hidden');
+            });
+        });
+
+        document.addEventListener('click', () => {
+            menu.classList.add('hidden');
+        });
     });
-  });
-});
 </script>
+
     <!-- navbar -->
 
 
@@ -211,5 +588,69 @@ document.addEventListener('DOMContentLoaded', () => {
 </body>
 </html>
 
+font-round
+font-play
+font-all
 
 
+
+
+
+
+
+
+
+ <section class="bg-[#F1EEE7] md:py-10 py-5 flex justify-between">
+        <!-- policy -->
+        <div class="flex md:gap-5 gap-3">
+            <p class="text-xs">Copyright © Chupi 2025</p>
+            <a href="#" class="link text-xs">Privacy Policy</a>
+            <a href="#" class="link text-xs">Terms & Conditions</a>
+            <a href="#" class="link text-xs">Cookie Policy</a>
+        </div>
+        <!-- policy -->
+        <!-- payment -->
+       <div class="flex flex-wrap justify-center items-center gap-1 md:gap-2 mt-4">
+  <!-- Visa -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" class="w-full h-auto">
+  </div>
+  <!-- Mastercard -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="w-full h-auto">
+  </div>
+  <!-- PayPal -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="w-full h-auto">
+  </div>
+  <!-- American Express -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/American_Express_logo.svg" alt="Amex" class="w-full h-auto">
+  </div>
+  <!-- Apple Pay -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAY1BMVEX///8AAABoaGiLi4t1dXVycnL8/PzV1dXc3Nz09PTS0tL5+fnn5+fi4uLu7u6ZmZkqKioxMTFBQUEdHR05OTlYWFhgYGB8fHyrq6uSkpIQEBBHR0dMTEy3t7ciIiKjo6PBwcEQS8m8AAAE8klEQVR4nO2Z6ZajKhRGHRJnjImzxuj7P2UrBxQEMbdXVdLrrrN/VVTw44xgWRaCIAiCIAiCIAiCIAiCIAiCIAiCIP9TyOgM39aww3ML2759W4VMNEuy7X/LUkm2aOqI7t7tuqNukk9oCstFk11pbzq2SvEBXQ28anpb1CxL//APQp1nX/Q39aJsu/5dTT59ySP8b6Js1/tNUdR7VXpwF0T1NcMpVlXjb4pq5xAZD+zERblzKVuw4tR3maj8V6I9BSV+Ey1/JL6vs9YqamO62+rFHxE0VH3xKG+ERkYcuM/761U8W2X1GlEWYSn4w6Ya19C4DoHflGugdO3OkTpRi8ePi8hfklRiGr1yKaueshO1okihloU4DMP47zMy7I/SnFJKXtGKCmFVxXohHVynfD6razvFXGRzW2jkkT696MbWDu9q1GQX/qkoCzIwY79InW3Ds5aZ+ga/5cCr6bVKsehg1vSUZ9GLakVRQybP8IBVRR39NYnjwge9tjPfbNaXWdOuLpxbylUnoZsgD9JHCrwIfKHsRyazoaLd41pR3mUTpTP8i751pH/34irBe85ek3UxalIKolZU0q+TJzCuu0ypF/otuMe+LkFDwCfTNi7u91eA9GkUpTyvFTVBuCyhAeGc83EJTN8F1ppRwtgIqo/S08jdpOmh5KpWFET24qTwuVsLm592a/Bsto2D/Gj377AiY5yXyvM6UaygO/MKCLXZQ0jxehuQgkEDfsuj5a2brD3M8gdcD0QJiwsD3qKWzPdIMCPGMuxjL4LAdTD0zKe6IzGLUvMCRF0ixjBW+eGzlEEQBZle8ZhoNFanRLmiROAopnT6D7ZgoigWcbxFQOHS7C18Y0xlSlk7EtXtN18piaahGW+VIIoVVnaghDbeaxaTFAdvAZRT8oEosaWG0U1p8UxUQH/0og2VFrNZ9Ajl/KAVVYiH6anURAQT5UExBavSsM99S0NtFGVfdg0cROV3TvGsbmIrSkv9NOw2tBq6hpBq16dHYxa1dyCIqmnmL5BUsmUs74O6rH9IogKqhDZlaMY6782CT0TZ1/NN3gbbIrzqISKgdpJEQauh2wJouvqjnKe3t4B0JjeLYit8+JvTxZJgcf9FPJj30SGPMvG+KDDLXbStWNEX2R37CXu+SZkCOCkKs6XECmoWBXsEqWO6siiL+i9jDfN+eCq7nYiSYtEsChSIGcWWvIkCY0YW9d7xZ5HUrOkhxaJZVKtYiu0gNlEJTccxZdoOMVcF+SvjOzHVrUO80d6LAms61D26FsMJK40WTiX3ZLMoZvS8CZesCoN1YkEUrU8vui9Ut3cC5FjTK5AfPalTvD/ktevW1FEOT7eVLbG0LWbl2IH7insiiuxT+RLtLcXDbPbeyam+tfUoBj4RxY+cnDL0FVE+b9hnH+o9foTMqrqtS36aqN87OIgQoUO82thSLRXzSNN+E5doltDrRwghQndEhaZbXvMsy3JjhA5XON307TKZTwdIBYkFi6OsWCX0I7I9FhOf6BI2TBcMqbyQEj8KEpjMUwcM+nD9LrA/6D7yn4p3YRl6cPr5EqzKT9/WIQKHB7s6icuPEXpx0rBPav/KP+7CLF9Pmf9MRAkfDdVT7rfYRKkfFL/GKsoJzh/+FHE5H157pzXvWD5NmiRJ+kbHQxAEQRAEQRAEQRAEQRAEQRAEQT7AH4bWOHn21wiGAAAAAElFTkSuQmCC" alt="Apple Pay" class="w-full h-auto">
+  </div>
+  <!-- Google Pay -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="data:image/png;base64,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" alt="Google Pay" class="w-full h-auto">
+  </div>
+  <!-- humm -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="data:image/png;base64,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" alt="humm" class="w-full h-auto">
+  </div>
+  <!-- Klarna -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="data:image/png;base64,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" alt="Klarna" class="w-full h-auto">
+  </div>
+  <!-- Shop Pay -->
+  <div class="w-6 md:w-7 lg:w-8">
+    <img src="data:image/png;base64,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" alt="Shop Pay" class="w-full h-auto">
+  </div>
+</div>
+
+        </div>
+        <!-- payment -->
+
+
+     </section>
