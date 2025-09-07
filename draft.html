@@ -586,51 +586,71 @@
 
     <!-- rings hero -->
 
-     <!-- Hero Section Container -->
-    <section class="w-full min-h-screen p-4 flex flex-col gap-4">
+      <section class="max-w-7xl mx-auto px-4 lg:px-8 my-10">
+  <!-- Engagement Rings -->
+  <div class="relative mb-2">
+    <img 
+      src="https://www.chupi.com/cdn/shop/files/home-category-engagement_may-2024_2400x.jpg?v=1716475061" 
+      alt="Engagement Rings" 
+      class="w-full h-[450px] md:h-[600px] object-cover"
+    >
+    <div class="absolute bottom-6 left-6 text-white">
+      <h2 class="md:text-3xl text-2xl font-bold text-white drop-shadow font-play mb-2">Engagement Rings</h2>
+      <button class="relative overflow-hidden border border-white rounded-none font-thin px-6 py-2
+       before:absolute before:top-0 before:left-0 before:w-[200%] before:h-[200%] before:bg-white
+       before:-translate-x-full before:skew-x-12
+       before:transition-transform before:duration-500 before:ease-out
+       hover:before:translate-x-0
+       text-white hover:text-black">
+        <span class="relative z-20">SHOP NOW</span>
+      </button>
+    </div>
+  </div>
 
-        <!-- Top Section - Single Full-Width Image -->
-        <div class="relative flex-1 rounded-2xl overflow-hidden shadow-xl" style="background-image: url('https://www.chupi.com/cdn/shop/files/home-category-engagement_may-2024_2400x.jpg?v=1716475061'); background-size: cover; background-position: center;">
-            <div class="absolute inset-0 bg-black/20 transition-all duration-300 hover:bg-black/5"></div>
-            <div class="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-white">
-                <h2 class="text-4xl md:text-5xl font-semibold mb-4 drop-shadow-lg">New Arrivals</h2>
-                <button class="bg-white text-black px-6 py-3 rounded-full font-medium text-lg transition-all duration-300 hover:bg-gray-200 shadow-md">
-                    SHOP NOW
-                </button>
-            </div>
-        </div>
+  <!-- Container for Wedding Rings and Fine Jewellery -->
+  <div class="flex flex-col gap-2 lg:grid lg:grid-cols-3">
+    <!-- Wedding Rings (2nd on md/sm, last on lg) -->
+    <div class="relative mb-2 order-2 lg:order-3 lg:col-span-2">
+      <img 
+        src="https://www.chupi.com/cdn/shop/files/home-category-wedding_may-2024_1600x.jpg?v=1716475061" 
+        alt="Wedding Rings" 
+        class="w-full h-[450px] md:h-[600px] object-cover"
+      >
+      <div class="absolute bottom-6 left-6 text-white">
+        <h2 class="md:text-3xl text-2xl font-bold text-white drop-shadow font-play mb-2">Wedding Rings</h2>
+        <button class="relative overflow-hidden border border-white rounded-none font-thin px-6 py-2
+       before:absolute before:top-0 before:left-0 before:w-[200%] before:h-[200%] before:bg-white
+       before:-translate-x-full before:skew-x-12
+       before:transition-transform before:duration-500 before:ease-out
+       hover:before:translate-x-0
+       text-white hover:text-black">
+          <span class="relative z-20">SHOP NOW</span>
+        </button>
+      </div>
+    </div>
 
-        <!-- Bottom Section - Two Images Side-by-Side -->
-        <div class="flex-1 flex flex-col md:flex-row gap-4">
+    <!-- Fine Jewellery (3rd on md/sm, 2nd on lg) -->
+    <div class="relative mb-2 order-3 lg:order-2 lg:col-span-1">
+      <img 
+        src="https://www.chupi.com/cdn/shop/files/homepage-shop-by-block-desktop_03-FJ_3a4cacbe-c7f0-4bde-b2bb-52259008e995_800x.jpg?v=1689243062" 
+        alt="Fine Jewellery" 
+        class="w-full h-[450px] md:h-[600px] object-cover"
+      >
+      <div class="absolute bottom-6 left-6 text-white">
+        <h2 class="md:text-3xl text-2xl font-bold text-white drop-shadow font-play mb-2">Fine Jewellery</h2>
+        <button class="relative overflow-hidden border border-white rounded-none font-thin px-6 py-2
+       before:absolute before:top-0 before:left-0 before:w-[200%] before:h-[200%] before:bg-white
+       before:-translate-x-full before:skew-x-12
+       before:transition-transform before:duration-500 before:ease-out
+       hover:before:translate-x-0
+       text-white hover:text-black">
+          <span class="relative z-20">SHOP NOW</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <!-- Left Image - Fine Jewellery -->
-            <div class="relative flex-1 rounded-2xl overflow-hidden shadow-xl" style="background-image: url('https://www.chupi.com/cdn/shop/files/homepage-shop-by-block-desktop_03-FJ_3a4cacbe-c7f0-4bde-b2bb-52259008e995_800x.jpg?v=1689243062'); background-size: cover; background-position: center;">
-                <div class="absolute inset-0 bg-black/20 transition-all duration-300 hover:bg-black/5"></div>
-                <div class="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-white">
-                    <h2 class="text-4xl md:text-5xl font-semibold mb-4 drop-shadow-lg">Fine Jewellery</h2>
-                    <button class="bg-white text-black px-6 py-3 rounded-full font-medium text-lg transition-all duration-300 hover:bg-gray-200 shadow-md">
-                        SHOP NOW
-                    </button>
-                </div>
-            </div>
-
-            <!-- Right Image - Wedding Rings -->
-            <div class="relative flex-1 rounded-2xl overflow-hidden shadow-xl" style="background-image: url('https://www.chupi.com/cdn/shop/files/home-category-wedding_may-2024_1600x.jpg?v=1716475061'); background-size: cover; background-position: center;">
-                <div class="absolute inset-0 bg-black/20 transition-all duration-300 hover:bg-black/5"></div>
-                <div class="absolute bottom-6 left-6 md:bottom-12 md:left-12 text-white">
-                    <h2 class="text-4xl md:text-5xl font-semibold mb-4 drop-shadow-lg">Wedding Rings</h2>
-                    <button class="bg-white text-black px-6 py-3 rounded-full font-medium text-lg transition-all duration-300 hover:bg-gray-200 shadow-md">
-                        SHOP NOW
-                    </button>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-  
-     
-    
       <!-- rings hero -->
     <!-- Customer Reviews -->
      
@@ -838,7 +858,7 @@ Sustainability</h2>
 
     <!-- hover cards -->
     <!-- Stay up to date with Chupi -->
-   <section class="bg-[#333333] text-[#e8e8e8] min-h-[400px] flex flex-col lg:flex-row items-center justify-center py-8 px-8 sm:px-16 font-poppins relative">
+      <section class="bg-[#333333] text-[#e8e8e8] min-h-[400px] flex flex-col lg:flex-row items-center justify-center py-8 px-8 sm:px-16 font-poppins relative">
   <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-8 max-w-6xl w-full mx-auto">
       
     <div class="w-full lg:w-1/2">
@@ -864,13 +884,16 @@ Sustainability</h2>
     </div>
   </div>
 
-  <div class="absolute bottom-0 left-0 w-full bg-black py-4">
-    <p class="text-white text-xs text-center max-w-4xl mx-auto border-t border-white border-opacity-10 py-2">
+  <!-- Footer text -->
+  <div class="relative lg:absolute bottom-0 left-0 w-full lg:bg-black py-4">
+    <p class="text-white text-xs text-center font-round max-w-4xl mx-auto border-t border-white border-opacity-10 py-2">
       We know how busy your inbox gets, so you can unsubscribe any time. By opting in, you are agreeing to our <a href="#" class="underline">privacy policy</a>.
     </p>
   </div>
 </section>
     <!-- Stay up to date with Chupi -->
+ 
+
 
 </main>
 <!-- main end -->
